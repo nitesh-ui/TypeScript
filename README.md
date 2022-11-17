@@ -1,2 +1,1 @@
-# Typescript
-It's all about typescript
+Typescript files use .ts extension. Typescript is a superset of JavaScript.
