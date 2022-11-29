@@ -1,0 +1,14 @@
+We can create complex types by combining simple ones. There are two ways to do so.
+- Unions & Generics
+
+<---- Unions ---->
+type MyBool = true | false;
+type WindowState = "open" | "close" | "minimized";
+type PositiveNumber = 1 | 2 | 3 | 4;
+
+<---- Generics ---->
+Generics provide variable to types.
+
+type StringArray = Array<string>;
+type NumberArray = Array<number>;
+type ObjectArray = Array<{name: string}>
